@@ -57,21 +57,16 @@
     margin-right: 220px;
 }
 
-.nav li {
+.dropdown {
   margin-left: auto;
   margin-right: auto;
-}
-
-.dropdown {
-  float: left;
-  overflow: hidden;
 }
 
 .dropdown .dropbtn {
   font-size: 16px;
   border: none;
   outline: none;
-  color: white;
+  color: black;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
@@ -79,7 +74,7 @@
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: grey;
 }
 
 .dropdown-content {
