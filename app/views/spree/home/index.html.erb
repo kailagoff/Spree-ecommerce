@@ -10,3 +10,25 @@
     <%= render partial: 'spree/shared/products', locals: { products: @products } %>
   <% end %>
 </div>
+
+
+<div id="homepage">
+  <div class="nav">
+    <div class="dropdown">
+      <button class="dropbtn">SHOP
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">SOAP</a>
+        <a href="#">OILS</a>
+        <a href="#">CANDLES</a>
+      </div>
+    </div>
+    <li><a href="/about">ABOUT</a></li>
+  </div>
+  <br>
+  <div class="container" id="welcome">
+    <h1 align="center"><%= image_tag("line45.png") %></h1>
+  </div>
+  <br>
+</div>

@@ -10,11 +10,12 @@
 # In order to initialize a setting do:
 # config.setting_name = 'new value'
 Spree.config do |config|
-  # Example:
-  # Uncomment to stop tracking inventory levels in the application
-  # config.track_inventory_levels = false
+  config.logo = 'line45.png'
 end
 
+Spree.config do |config|
+  config.admin_interface_logo = 'line45.png'
+end
 # Configure Spree Dependencies
 #
 # Note: If a dependency is set here it will NOT be stored within the cache & database upon initialization.
