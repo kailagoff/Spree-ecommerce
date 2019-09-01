@@ -10,11 +10,11 @@
 # In order to initialize a setting do:
 # config.setting_name = 'new value'
 Spree.config do |config|
-  config.logo = 'line45.png'
+  config.logo = 'logo/line45.png'
 end
 
 Spree.config do |config|
-  config.admin_interface_logo = 'line45.png'
+  config.admin_interface_logo = 'logo/line45.png'
 end
 # Configure Spree Dependencies
 #

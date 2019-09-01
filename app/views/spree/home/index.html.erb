@@ -5,19 +5,7 @@
   </div>
 <% end %>
 
-<div class="nav">
-  <div class="dropdown">
-    <button class="dropbtn">SHOP
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="#">SOAP</a>
-      <a href="#">OILS</a>
-      <a href="#">CANDLES</a>
-    </div>
-  </div>
-  <li><a href="/about">ABOUT</a></li>
-</div>
+
 
 <div data-hook="homepage_products">
   <% cache(cache_key_for_products) do %>
@@ -29,7 +17,7 @@
 <div id="homepage">
   <br>
   <div class="container" id="welcome">
-    <h1 align="center"><%= image_tag("line45.png") %></h1>
+    <h1 align="center"><%= image_tag("logo/line45.png") %></h1>
   </div>
   <br>
 </div>
