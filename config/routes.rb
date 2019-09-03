@@ -12,4 +12,7 @@ Rails.application.routes.draw do
 
    resources :about do
   end
+
+  resources :search do
+ end
 end
