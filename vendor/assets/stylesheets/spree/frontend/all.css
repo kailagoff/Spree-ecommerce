@@ -30,3 +30,10 @@
   color: white;
   margin: 10px;
 }
+
+#homepage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
