@@ -11,8 +11,10 @@ Rails.application.routes.draw do
    root :to => 'welcome#index'
 
    resources :about do
-  end
+   end
 
   resources :search do
- end
+  end
+
+  resources :home, only: :index
 end
