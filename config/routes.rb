@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   # We ask that you don't use the :as option here, as Spree relies on it being
   # the default of "spree".
   mount Spree::Core::Engine, at: '/'
-   root :to => 'welcome#index'
+   root :to => 'home#index'
 
    resources :about do
    end
@@ -16,5 +16,8 @@ Rails.application.routes.draw do
   resources :search do
   end
 
-  resources :home, only: :index
+  resources :welcome do
+    
+  end
+
 end
