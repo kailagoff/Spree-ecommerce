@@ -17,6 +17,10 @@
     padding:10px;
 }
 
+#about-banner {
+  display:inline-block;
+}
+
 
 #spree-header {
   background-color: black;
