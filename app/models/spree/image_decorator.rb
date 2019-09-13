@@ -7,7 +7,7 @@ module YourApplication
             mini:    '48x48>',
             small:   '100x100>',
             product: '250x250>',
-            large:   '400x400>',
+            large:   '325x325>',
           }
         end
       end
