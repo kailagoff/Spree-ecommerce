@@ -38,6 +38,7 @@ body a {
 #spree-header a{
   color: black;
   margin: 7px;
+  background-color: black;
 }
 
 .glyphicon {
