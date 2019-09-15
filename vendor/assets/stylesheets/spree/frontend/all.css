@@ -49,16 +49,6 @@ body a {
 }
 
 
-
-/* main page background image */
-#style_image {
-  background-size: contain;
-  background-position: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-}
-
 /* black and white buttons */
 button {
     display: inline-block;
