@@ -9,6 +9,10 @@
  *= require_tree .
 */
 
+body {
+  font-family: 'Merriweather', serif;
+}
+
 body a {
   color: black;
   font-size: 10px;
